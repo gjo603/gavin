@@ -1,5 +1,6 @@
 $color-blue-light:  #5496E6;
 $color-blue-dark: #518BDE;
+$color-grey-one: #444;
 
 .grid {
     display: grid;
@@ -13,7 +14,7 @@ $color-blue-dark: #518BDE;
         grid-column:1/4;
         z-index: 1;
         font-size: 18px;
-        // justify-self: center;
+        justify-self: center;
         
         color: white;
         font-family: 'Montserrat';
