@@ -14,7 +14,8 @@ class Picker extends Component {
           this.handleChange = this.handleChange.bind(this);
         }
        
-        handleChange(date) {            
+        handleChange(date) {
+            console.log('trying to change date for', date._d)            
           this.setState({
             startDate: date
           });
